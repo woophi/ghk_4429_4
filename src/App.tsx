@@ -43,11 +43,9 @@ export const App = () => {
         <div className={appSt.box({ color: 'gold' })}>
           <div className={appSt.row}>
             <div>
-              <Typography.TitleResponsive tag="h2" view="small" font="system" weight="semibold">
-                Золотая копилка
-              </Typography.TitleResponsive>
               <Typography.Text view="primary-small">
-                Инвестиции в реальное золото на обезличенных металлических счетах (ОМС)
+                Инвестиции в золото через паевые инвестиционные фонды — доход от роста цен на золото без прямой покупки
+                металла
               </Typography.Text>
             </div>
             <img src={gold} width={90} height={90} />
